@@ -1,0 +1,52 @@
+#section-contact {
+  min-height: 500px;
+  background: #fff;
+  color: #0f0072 !important;
+  padding-top: 60px;
+  padding-bottom: 40px; }
+  #section-contact .container-contact {
+    width: 550px;
+    margin: auto;
+    max-width: 90%;
+    margin-top: 25px; }
+    #section-contact .container-contact .contact-style {
+      width: 100%;
+      outline: none;
+      border: 1px solid transparent;
+      border-bottom: 1px solid #0f0072;
+      padding: 10px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+      background: transparent;
+      color: #0f0072; }
+    #section-contact .container-contact .btn-style {
+      width: 100%;
+      cursor: pointer;
+      border: none !important;
+      padding: 15px 25px;
+      background: #fc3000;
+      font-size: 1.1em;
+      color: #fff;
+      transition: 0.3s ease-in-out; }
+    #section-contact .container-contact .height-textarea {
+      min-height: 150px; }
+
+.red {
+  color: #fc3000 !important;
+  margin: 15px 0 15px 0;
+  display: block;
+  margin-left: 5px; }
+
+.green {
+  color: #1dae1d;
+  margin: 15px 0 15px 0;
+  margin-left: 5px; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
+
+::-webkit-input-placeholder {
+  color: #0f0072; }

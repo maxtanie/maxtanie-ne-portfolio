@@ -1,0 +1,42 @@
+{
+  "alpha": [
+    {
+      "id": 1,
+      "letter": "A",
+      "chosenVerse": "Aucun de ceux qui espèrent en toi ne sera couvert de honte, mais la honte est pour ceux qui sont infidèles sans raison .",
+      "verse": "Psaumes 25 : 3",
+      "RandomArray": [
+        {
+          "arrayVerse": "Aie pitié de moi Eternel car je suis sans force !",
+          "verseArray": "Psaumes 6 : 3",
+          "letter": "A"
+        },
+        {
+          "arrayVerse": "Avec Dieu nous ferons des exploits. Il écrasera nos ennemis .",
+          "verseArray": "Psaumes 60 : 14",
+          "letter": "A"
+        }
+      ],
+      "vals": ["Bonjour", "Salut", "Julie"]
+    },
+    {
+      "id": 2,
+      "letter": "B",
+      "chosenVerse": "Béni soit l'Eternel, car il a entendu mes supplications !",
+      "verse": "Psaumes 28 : 6",
+      "RandomArray": [
+        {
+          "arrayVerse": "Béni soit l'homme qui se confie en l'Eternel et dont l'Eternel est l'espérance",
+          "verseArray": "Jérémie 17 : 7",
+          "letter": "B"
+        },
+        {
+          "arrayVerse": "Brise la force du méchant, punis sa méchanceté, et qu'il disparaisse à tes yeux !",
+          "verseArray": "Psaumes 10 : 15",
+          "letter": "B"
+        }
+      ],
+      "vals": ["Hello", "Salutoeu", "Julieee"]
+    }
+  ]
+}

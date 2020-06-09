@@ -1,0 +1,19 @@
+.btn-creations {
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #0f0072;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  color: #0f0072;
+  font-size: 0.8em;
+  margin-top: 25px;
+  display: block; }
+  .btn-creations:hover {
+    border: 1px solid #fc3000;
+    background: #fc3000;
+    color: #fff; }
+
+.space-between {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 10px; }

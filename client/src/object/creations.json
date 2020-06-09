@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "item": "personal",
+    "creationName": "BibleVerse",
+    "itemNumber": 2,
+    "urlImg": "img/portfolio/personal-projects/bible-verse.png",
+    "alt": "Bible verse design",
+    "shortDescription": "A design inspired by the chapter of John 14 verse 6.",
+    "FullDescriptions": [
+      {
+        "title": "The projects",
+        "txt": "Projet personnel réalisé en 2017. Création du logo, Design web et Développement du site vitrine responsive d'un restaurant / sushi bar."
+      },
+      {
+        "title": "Goals",
+        "txt": "Pour ce projet, j'ai voulu créer une identité visuelle ainsi qu'un site web pour un hypothétique restaurant car je souhaitais pratiquer un peu le design et le développement"
+      },
+      {
+        "title": "Software",
+        "txt": "Affinity Designer, Sublime Text 3."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "item": "personal",
+    "creationName": "BeYou",
+    "itemNumber": 2,
+    "urlImg": "img/portfolio/personal-projects/design-home.png",
+    "alt": "Homepage design",
+    "shortDescription": "A beautiful design of a home shop page.",
+    "FullDescriptions": [
+      {
+        "title": "The projects",
+        "txt": "Uniformisation des développements par la création d'un coeur commun à tous les projets du périmètre. Le projet est conçu en responsive design avec détection de device côté serveur. Création d'un framework CSS interne. Rédaction des guidelines de développement front-end (templates de pages, blocs et strips, SASS, charte graphique à respecter, ...)"
+      },
+      {
+        "title": "Goals",
+        "txt": "Pour ces projets, j'ai du mettre en place des solutions adaptables et modulables pour faciliter l'export et l'implémentation du tronc commun sur chaque projet existant et à venir, dans le respect de la charte graphique et des contraintes imposées (notamment la compatibilité IE7 et IE8 et le responsive design)."
+      },
+      {
+        "title": "Software",
+        "txt": "Affinity Designer, Sublime Text 3."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "item": "personal",
+    "creationName": "Girlsplay",
+    "itemNumber": 2,
+    "urlImg": "img/portfolio/personal-projects/girl-play-3.png",
+    "alt": "Bible verse design",
+    "shortDescription": "A design inspired by the chapter of John 14 verse 6.",
+    "FullDescriptions": [
+      {
+        "title": "The projects",
+        "txt": "Projet personnel réalisé en 2017. Création du logo, Design web et Développement du site vitrine responsive d'un restaurant / sushi bar."
+      },
+      {
+        "title": "Goals",
+        "txt": "Pour ce projet, j'ai voulu créer une identité visuelle ainsi qu'un site web pour un hypothétique restaurant car je souhaitais pratiquer un peu le design et le développement"
+      },
+      {
+        "title": "Software",
+        "txt": "Affinity Designer, Sublime Text 3."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "item": "logo",
+    "creationName": "Testify",
+    "itemNumber": 3,
+    "urlImg": "img/portfolio/logo/logo-testify.png",
+    "alt": "Testify logo design",
+    "shortDescription": "A christian Logo for my outfit for christian",
+    "FullDescriptions": [
+      {
+        "title": "The projects",
+        "txt": "Uniformisation des développements par la création d'un coeur commun à tous les projets du périmètre. Le projet est conçu en responsive design avec détection de device côté serveur. Création d'un framework CSS interne. Rédaction des guidelines de développement front-end (templates de pages, blocs et strips, SASS, charte graphique à respecter, ...)"
+      },
+      {
+        "title": "Goals",
+        "txt": "Pour ces projets, j'ai du mettre en place des solutions adaptables et modulables pour faciliter l'export et l'implémentation du tronc commun sur chaque projet existant et à venir, dans le respect de la charte graphique et des contraintes imposées (notamment la compatibilité IE7 et IE8 et le responsive design)."
+      },
+      {
+        "title": "Software",
+        "txt": "Affinity Designer, Sublime Text 3."
+      }
+    ]
+  }
+]

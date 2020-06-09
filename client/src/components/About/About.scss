@@ -1,0 +1,85 @@
+.section-about {
+  width: 800px;
+  max-width: 80% !important;
+  padding-bottom: 500px;
+  height: 1400px;
+  color: #fc0000;
+  @media screen and (max-width: 768px) {
+    height: 1460px !important;
+  }
+}
+
+.white-val {
+  color: #fff !important;
+}
+
+.content-about {
+  color: #0f0072 !important;
+  margin-top: 30px;
+  .block-img-about {
+    width: 260px;
+    height: 220px;
+    display: block;
+    border: 8px solid #fff;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      height: 250px;
+    }
+  }
+  .block-about-infos {
+    position: absolute;
+    width: 350px;
+    padding: 30px 20px;
+    background: #fff;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    top: 350px;
+    left: 230px;
+
+    @media screen and (max-width: 768px) {
+      position: relative !important;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .about-job {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+
+    .circles-block {
+      width: 220px;
+      margin: auto;
+      display: block;
+      margin-top: 12px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.section-padding-2 {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+iframe {
+  width: 100%;
+}
+
+.hobbies-img {
+  height: 100px;
+}
+
+.container-ab {
+  width: 800px !important;
+  max-width: 80%;
+  margin: auto;
+  display: block;
+}

@@ -1,0 +1,31 @@
+.nav {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #ffea02;
+  z-index: 2; }
+  @media screen and (max-width: 768px) {
+    .nav {
+      display: none; } }
+  .nav .list-items {
+    cursor: pointer;
+    list-style: none; }
+    .nav .list-items a {
+      padding: 25px 15px;
+      display: block;
+      text-decoration: none;
+      color: #0f0072;
+      transition: 0.3s ease; }
+      .nav .list-items a:hover {
+        color: #fc3000; }
+
+.active {
+  color: red;
+  background: transparent !important; }
+
+.max {
+  width: 100% !important; }

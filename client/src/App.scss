@@ -1,0 +1,106 @@
+$green-dark: #1b1b1b;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffea02;
+  // background: #88dbd4;
+  font-family: "roboto";
+  overflow-x: hidden !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*
+---------------------------------------------------
+CONTAINER STYLE
+---------------------------------------------------
+*/
+
+.container {
+  width: 1740px;
+  max-width: 85%;
+  margin: auto;
+}
+
+/*
+---------------------------------------------------
+TXT STYLE
+---------------------------------------------------
+*/
+.green-dark-color {
+  color: $green-dark;
+}
+
+.white {
+  color: #fff !important;
+}
+
+.title {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.right {
+  text-align: right;
+}
+
+.lighter {
+  font-family: "roboto light";
+  line-height: 1.62;
+  margin: 15px 0;
+}
+
+.normal {
+  font-weight: normal;
+  margin: 15px 0;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.l-height-normal {
+  line-height: 1.6;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.flex-items-center {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.section-padding {
+  padding: 70px 0;
+}
+
+.scrollTop {
+  padding: 25px;
+  background: black;
+  color: yellow;
+}

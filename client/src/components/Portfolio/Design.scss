@@ -1,0 +1,136 @@
+// .design {
+//   min-height: 100px;
+//   background: #F7E307 url("../../images/portfolio/Rectangle\ 229.png") no-repeat
+//     center !important;
+// }
+
+// MIXINS REPONSIVE DESIGN
+
+@mixin mobileResponsive($valsWidth, $valsItems) {
+  @media screen and (max-width: $valsWidth) {
+    width: $valsItems !important;
+    display: block !important;
+  }
+}
+.portfolio-section {
+  background: #ffea02 url("../../images/portfolio/bg-portfolio.png") no-repeat
+    center;
+  min-height: 100vh;
+  overflow: hidden;
+  color: #0f0072;
+  background-size: contain;
+}
+
+.container-design {
+  width: 800px;
+  margin-top: 50px;
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+  }
+}
+
+.grid-creations,
+.filter-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+  grid-template-rows: repeat(auto-fit, minmax(350px, 1fr)) !important;
+  grid-gap: 20px;
+
+  // @media screen and (max-width: 768px) {
+  //   width: 285px;
+  //   height: 500px;
+  //   display: block;
+  // }
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    display: block;
+  }
+}
+
+.filter-item {
+  width: 50%;
+  max-width: 100%;
+  margin-bottom: 4%;
+  @include mobileResponsive(768px, 100%);
+}
+
+.box-design {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  position: relative;
+  margin-top: 20px;
+
+  .block-img {
+    position: relative;
+    width: 220px;
+    height: 230px;
+    border: 8px solid #fff;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      height: 350px;
+    }
+  }
+  .block-content-txt {
+    position: absolute;
+    color: #0f0072;
+    width: 220px;
+    min-height: 200px;
+    background: #fff;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-top: -15px;
+    left: 150px;
+    top: 160px;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+
+    .id {
+      font-size: 1.2em;
+      font-weight: normal;
+      text-align: left !important;
+    }
+    .creation-name {
+      margin: 10px 0;
+      font-size: 1.7em;
+      text-transform: uppercase;
+    }
+
+    .creation-infos {
+      margin: 10px 0;
+      text-align: center;
+      font-family: "source sans pro light";
+      font-size: 0.95em;
+    }
+    .link-read-more {
+      text-align: right;
+      text-decoration: none;
+      display: block;
+      color: #fc3000;
+      transition: 0.3s ease;
+      font-weight: bold;
+
+      &:hover {
+        color: #0f0072;
+      }
+    }
+  }
+}
+
+.link-none {
+  color: inherit;
+}

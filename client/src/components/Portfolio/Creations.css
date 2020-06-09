@@ -1,0 +1,31 @@
+.capitalize {
+  text-transform: capitalize; }
+
+.container {
+  width: 700px;
+  min-height: 500px;
+  position: relative; }
+
+.small {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -200px; }
+
+.img {
+  width: 700px;
+  height: 250px; }
+
+.arrow {
+  position: absolute;
+  right: 50px; }
+  .arrow:nth-child(1) {
+    top: 50px; }
+
+.arrow2 {
+  position: absolute;
+  right: 35px;
+  background: red; }
+
+.yellow-bg {
+  background: #ffea02 !important; }

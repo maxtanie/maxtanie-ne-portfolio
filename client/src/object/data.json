@@ -1,0 +1,93 @@
+{
+  "About": {
+    "imgAbout": "../../public/bg-header.png",
+    "titleSection": "About",
+    "txtSection": "Be passionated is something really amazing.",
+    "aboutName": "Maxtanie Petit Dol",
+    "aboutJob": "Web designer",
+    "aboutLink": ["Twitter", "Instagram", "Github"],
+    "txtAbout": "Passionate by Gospel and Web Design because those things are really important and precious in my life.",
+    "txtAboutMore": "Passionate by Gospel and Web Design because those things are really important and precious in my life. Passionate by Gospel and Web Design because those things are really important and precious in my life."
+  },
+  "Hobbies": {
+    "hobbiesLink": ["Design", "Gospel", "Coding", "Read"],
+    "Design": {
+      "img": "https://image.freepik.com/vecteurs-libre/concept-mot-design_23-2147844787.jpg",
+      "txt": "Passionate by Gospel and Web Design because those things are really important and precious in my life. Passionate by Gospel and Web Design  because those things areally important and precious in my life."
+    },
+    "Gospel": {
+      "urlVideo": "https://www.youtube.com/embed/EzIL7rfHtPg",
+      "txt": "Passionate by Gospel and Web Design because those things are really important and precious in my life. Passionate by Gospel and Web Design  because those things areally important and precious in my life."
+    },
+    "Coding": {
+      "img": "https://static.checkio.org/media/blog/share/326244-P9YZ08-291.ai.png",
+      "txt": "Passionate by Gospel and Web Design because those things are really important and precious in my life. Passionate by Gospel and Web Design  because those things areally important and precious in my life."
+    },
+    "Read": {
+      "img": "https://facthacker.com/wp-content/uploads/2016/04/5-Reasons-Why-People-Who-Read-Are-Some-of-The-Coolest-People.jpg",
+      "txt": "Passionate by Gospel and Web Design because those things are really important and precious in my life. Passionate by Gospel and Web Design  because those things areally important and precious in my life."
+    }
+  },
+  "Portfolio": {
+    "titleSection": "Portfolio",
+    "txtSection": "Improve our skills everyday would be like to breath."
+  },
+  "Skills": {
+    "titleSection": "Skills",
+    "txtSection": "Improve our skills everyday would be like to breath.",
+    "skillsVals": [
+      {
+        "acronym": "PS",
+        "name": "Photoshop",
+        "levelNum": 3,
+        "levelStr": "Moyen"
+      },
+      {
+        "acronym": "XD",
+        "name": "Adobe XD",
+        "levelNum": 2,
+        "levelStr": "Moyen"
+      },
+      {
+        "acronym": "AR",
+        "name": "Axure RP8",
+        "levelNum": 3,
+        "levelStr": "Faible"
+      },
+      {
+        "acronym": "HT",
+        "name": "Html5",
+        "levelNum": 4,
+        "levelStr": "Fort"
+      },
+      {
+        "acronym": "CS",
+        "name": "Css3/Scss",
+        "levelNum": 3,
+        "levelStr": "Moyen"
+      },
+      {
+        "acronym": "JS",
+        "name": "Javascript",
+        "levelNum": 2,
+        "levelStr": "Faible"
+      },
+      {
+        "acronym": "RE",
+        "name": "React Js",
+        "levelNum": 3,
+        "levelStr": "Faible"
+      },
+      {
+        "acronym": "CR",
+        "name": "Creativity",
+        "levelNum": 2,
+        "levelStr": "Faible"
+      }
+    ]
+  },
+  "Contact": {
+    "titleSection": "Contact",
+    "txtSection": "Improve our skills everyday would be like to breath."
+  }
+}
