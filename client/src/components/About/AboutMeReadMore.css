@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 1068px) {
   .container-atouts .txt-atouts {
-    font-size: 1.3em; } }
+    font-size: 1.1em; } }
 
 .container-atouts .block-atouts {
   background: #fff; }
@@ -32,14 +32,10 @@
 
 @media screen and (max-width: 768px) {
   .padding-block-atout {
-    padding: 10px 40px; } }
+    padding: 15px; } }
 
 #hobbies {
   background: #0f0072; }
-
-@media screen and (max-width: 768px) {
-  #hobbies {
-    padding: 15px; } }
 
 #hobbies .container-hobbies {
   width: 1200px;
@@ -58,10 +54,8 @@
   font-size: 1.7em; }
 
 @media screen and (max-width: 768px) {
-  #hobbies .content-hobbies {
-    padding: 20px 40px 40px 40px; }
   #hobbies .content-hobbies .txt-intro-hobbies {
-    font-size: 1.3em; } }
+    font-size: 1.1em; } }
 
 .gap-30-px {
   grid-gap: 30px; }

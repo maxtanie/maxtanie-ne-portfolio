@@ -11,7 +11,7 @@
     background: #25187b url("../../images/about/bg-responsive-about-me.png") no-repeat center;
     background-size: cover;
     overflow: initial;
-    padding-left: 20px;
+    padding-left: 0;
     min-height: 500px;
     padding-bottom: 40px; } }
 
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 768px) {
   .content-infos-about {
-    padding: 30px;
+    padding: 15px;
     margin-top: 380px; } }
 
 .content-infos-about .txt-about {
@@ -63,11 +63,11 @@
 
 .txt-about .txt-about-big-size {
   font-size: 2em;
-  line-height: 1.5; }
+  line-height: 1.8; }
 
 @media screen and (max-width: 768px) {
   .txt-about .txt-about-big-size {
-    font-size: 1.3em; } }
+    font-size: 1.1em; } }
 
 .link-decouvrir-plus {
   font-size: 1.8em;
