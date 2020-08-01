@@ -6,10 +6,6 @@ import { NavLink } from "react-router-dom";
 export default class Nav extends Component {
   render() {
     const navLinksDefault = [
-      // {
-      //   linkUrl: "/",
-      //   linkName: "Home"
-      // },
       {
         linkUrl: "section-about",
         linkName: "About"
@@ -29,14 +25,6 @@ export default class Nav extends Component {
     ];
 
     const navLinksSecond = [
-      // {
-      //   linkUrl: "/",
-      //   linkName: "Home"
-      // },
-      {
-        linkUrl: "section-portfolio",
-        linkName: "Portfolio"
-      },
       {
         linkUrl: "section-contact",
         linkName: "Contact"
@@ -44,10 +32,6 @@ export default class Nav extends Component {
     ];
 
     const navLinksThird = [
-      // {
-      //   linkUrl: "/",
-      //   linkName: "Home"
-      // },
       {
         linkUrl: "section-about",
         linkName: "About"
@@ -128,7 +112,7 @@ export default class Nav extends Component {
 
     return (
       <nav className={`nav`}>
-        <ul className="flex-items-center container-header">
+        <ul className="flex-items-center container-700-px">
           <li className="list-items">
             <NavLink to="/">Home</NavLink>
           </li>

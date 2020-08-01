@@ -7,14 +7,14 @@ import Button from "../Button/Button";
 export default class Header extends Component {
   render() {
     return (
-      <header className="bg-header">
-        <div className="container-header  center absolute-center">
-          <h1 className="title orange">Hello,</h1>
-          <p className="txt">
-            My name is <b>Maxtanie Petit Dol</b> a 24 years old{" "}
-            <b>Web Designer</b>
+      <header id="bg-header">
+        <div className="container-700-px center absolute-center">
+          <h1 className="title orange orange-triangle">Hello,</h1>
+          <p className="txt-header">
+            Je m'appelle <b>Maxtanie Petit Dol, </b> j'ai 24 ans, je suis un
+            <b> Webdesigner</b>
             <br />
-            and <b>Front-End Developer.</b>
+            et <b>une développeuse front end junior</b> située à Paris.
           </p>
           <Link className="decoration-none center">
             <Button

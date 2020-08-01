@@ -1,0 +1,99 @@
+#article-mes-atouts {
+    // padding: 60px;
+    background: #fff;
+}
+
+.container-atouts {
+    // width: 1000px;
+    // margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
+
+    // padding: 30px;
+    // padding: 30px;
+
+    .txt-atouts {
+        // width: 640px;
+        max-width: 100%;
+        font-size: 1.8em;
+        line-height: 1.7;
+        margin: auto;
+        margin-top: 15px;
+
+        @media screen and (max-width: 1068px) {
+            font-size: 1.3em;
+        }
+    }
+
+    .block-atouts {
+
+        background: #fff;
+
+        @media screen and (max-width: 768px) {
+            margin-top: -60px;
+        }
+    }
+}
+
+.padding-block-atout {
+    padding: 80px;
+
+    @media screen and (max-width: 768px) {
+        padding: 10px 40px;
+    }
+}
+
+
+// HOBBIES
+
+#hobbies {
+    // padding-right: 30px;
+    background: #0f0072;
+
+    @media screen and (max-width: 768px) {
+        padding: 15px;
+    }
+
+    .container-hobbies {
+        width: 1200px;
+        margin: auto;
+
+    }
+
+
+    .content-hobbies {
+        background: #fff url("../../images/about/plume.png") no-repeat center center;
+        background-attachment: fixed;
+        background-size: 25%;
+        background-position: 25%;
+        padding: 20px 50px;
+
+
+        .txt-intro-hobbies {
+            margin-top: 20px;
+            line-height: 1.6;
+            font-size: 1.7em;
+        }
+
+        @media screen and (max-width: 768px) {
+
+
+            padding: 20px 40px 40px 40px;
+
+            .txt-intro-hobbies {
+                font-size: 1.3em;
+            }
+        }
+
+    }
+
+
+}
+
+.gap-30-px {
+    grid-gap: 30px;
+}

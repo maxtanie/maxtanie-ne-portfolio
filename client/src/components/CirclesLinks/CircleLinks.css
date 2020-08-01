@@ -8,89 +8,49 @@
 
 .block-circles {
   cursor: pointer;
-  font-family: "source sans pro";
-  width: 100%;
+  width: 350px;
   margin: auto;
-  margin-top: 15px;
-  margin-bottom: 15px; }
+  margin-top: 35px;
+  margin-bottom: 35px; }
   .block-circles .circles-content {
-    width: 50px;
+    width: 60px;
     text-align: center;
     font-size: 0.9em;
-    margin-right: 15px;
-    color: #1b1b1b; }
+    margin-right: 25px;
+    color: #fff; }
     .block-circles .circles-content .circles {
-      width: 50px;
-      height: 50px;
-      line-height: 50px;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
       border-radius: 50%;
-      border: 1px solid #1b1b1b;
+      border: 1px solid #fff;
       transition: 0.3s ease-in-out;
       font-weight: bold; }
       .block-circles .circles-content .circles:hover {
-        background: #1b1b1b;
-        color: #fff; }
+        border: none;
+        background: #ffea02;
+        color: #0f0072; }
     .block-circles .circles-content .links-name {
       margin-top: 10px;
       font-size: 0.8em; }
 
-App.css .App {
-  text-align: center; }
-
-.App-logo {
-  height: 40vmin; }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; }
-
-.slides .slick-prev,
-.slides .slick-next {
-  position: absolute;
-  top: 50%;
-  z-index: 1; }
-
-.slides {
-  position: relative; }
-
-.slides .slick-prev,
-.slides .slick-next {
-  position: absolute;
-  top: 50%;
-  z-index: 1; }
-
-.slides .slick-prev {
-  left: 5%; }
-
-.slides .slick-next {
-  right: 5%; }
-
-.container {
-  width: 700px;
-  margin: auto;
-  text-align: center; }
-
-.dots {
-  cursor: pointer;
-  width: 12px;
-  height: 12px;
-  display: inline-block;
-  vertical-align: middle;
-  border: 1px solid;
-  border-radius: 100px;
-  margin-right: 10px; }
-  .dots:hover {
-    background: #000; }
+.dots-slides {
+  padding-bottom: 30px; }
+  .dots-slides .dots {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid;
+    border-radius: 100px;
+    margin-right: 10px; }
+    .dots-slides .dots:hover {
+      background: #000; }
 
 .active {
   background: #000; }
 
 .hobbies-img {
   width: 100%;
-  height: 320px; }
+  height: 700px; }

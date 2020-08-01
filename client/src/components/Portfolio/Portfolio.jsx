@@ -71,9 +71,11 @@ const IsotopeReact = ({ name, filterName }) => {
       id="section-portfolio"
     >
       <div className="container">
-        <h1 className="center title uppercase">Portfolio</h1>
+        <h2 className="center title uppercase">Portfolio</h2>
         <div className="block-txt-section">
-          <p className="lighter">Be passionate is something really amazing.</p>
+          <p className="lighter center">
+            Be passionate is something really amazing.
+          </p>
         </div>
         <div className="flex space-between">
           {filterName.map((list, index) => {

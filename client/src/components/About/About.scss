@@ -1,12 +1,10 @@
 .section-about {
-  width: 800px;
-  max-width: 80% !important;
-  padding-bottom: 500px;
-  height: 1400px;
-  color: #fc0000;
-  @media screen and (max-width: 768px) {
-    height: 1460px !important;
-  }
+  // width: 800px;
+  // max-width: 80% !important;
+  // padding-bottom: 500px;
+  // // height: 1400px;
+  color: #fff;
+  text-align: center !important;
 }
 
 .white-val {
@@ -14,14 +12,16 @@
 }
 
 .content-about {
-  color: #0f0072 !important;
+  color: #fff !important;
   margin-top: 30px;
+
   .block-img-about {
     width: 260px;
     height: 220px;
     display: block;
     border: 8px solid #fff;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+
     img {
       width: 100%;
       height: 100%;
@@ -32,11 +32,12 @@
       height: 250px;
     }
   }
+
   .block-about-infos {
     position: absolute;
     width: 350px;
     padding: 30px 20px;
-    background: #fff;
+    // background: #fff;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
     top: 350px;
     left: 230px;
@@ -51,7 +52,10 @@
 
     .about-job {
       margin-top: 10px;
-      font-size: 1.2em;
+
+      .title-about-job {
+        font-size: 2em;
+      }
     }
 
     .circles-block {
@@ -71,15 +75,60 @@
 
 iframe {
   width: 100%;
+  height: 370px;
 }
 
 .hobbies-img {
-  height: 100px;
+  width: 100%;
+  height: 450px !important;
 }
 
 .container-ab {
-  width: 800px !important;
-  max-width: 80%;
+  width: 1500px !important;
+  max-width: 90%;
   margin: auto;
   display: block;
+}
+
+
+.title-about {
+  font-size: 2.5em !important;
+}
+
+.title-about-job {
+  font-size: 1.5em;
+  font-weight: lighter !important;
+}
+
+.aside-hobbies {
+  padding: 30px;
+}
+
+.infos-hobbies {
+  padding: 20px 50px;
+  margin-top: -35px;
+
+  @media screen and (max-width: 768px) {
+    padding: 20px 40px;
+  }
+}
+
+.dots-slide {
+  padding-bottom: 50px;
+}
+
+.txt-hobbies-content {
+  margin-top: 25px;
+  font-size: 1.3em;
+  margin-bottom: 25px;
+  line-height: 1.6;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.1em;
+  }
+}
+
+.time-to-read {
+  margin-top: 25px;
+  font-size: 1.1em;
 }

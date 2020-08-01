@@ -8,6 +8,7 @@
   right: 0;
   background: #ffea02;
   z-index: 2;
+
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -17,7 +18,7 @@
     list-style: none;
 
     a {
-      padding: 25px 15px;
+      padding: 30px 15px;
       display: block;
       text-decoration: none;
       color: #0f0072;

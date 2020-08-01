@@ -8,9 +8,10 @@ import Skills from "../Skills/Skills";
 import Contact from "../Contact/Contact";
 import Portfolio from "../Portfolio/Portfolio";
 import Nav from "../Nav/Nav";
-import AboutReadMore from "../About/AboutReadMore.jsx/AboutReadMore";
+import AboutReadMore from "../About/AboutReadMore/AboutReadMore2";
 import AboutBlock from "../About/AboutBlock";
 import Design from "../Portfolio/Design";
+import AboutMe from "../About/AboutMe";
 
 export default class Home extends Component {
   state = {
@@ -26,8 +27,8 @@ export default class Home extends Component {
     return (
       <React.Fragment>
         <Header />
-
-        <AboutReadMore />
+        {/* <AboutReadMore /> */}
+        <AboutMe />
         {/* <About
           imgAbout={imgs}
           titleSection={about.titleSection}

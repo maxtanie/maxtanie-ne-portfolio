@@ -3,11 +3,14 @@
   // background-image: url("https://wallpaperaccess.com/full/1767778.png");
   // background-size: cover;
   // background-position: center;
-  background: #fff;
+  background: #fff url("../../images/about/plume.png") no-repeat;
+  background-size: 24%;
+  background-position: right 5%;
   color: #0f0072 !important;
 
   padding-top: 60px;
   padding-bottom: 40px;
+
   .container-contact {
     width: 550px;
     margin: auto;
@@ -27,6 +30,7 @@
     }
 
     .btn-style {
+      outline: none;
       width: 100%;
       cursor: pointer;
       border: none !important;
@@ -34,7 +38,11 @@
       background: #fc3000;
       font-size: 1.1em;
       color: #fff;
-      transition: 0.3s ease-in-out;
+      transition: background 0.3s ease-in-out;
+
+      &:hover {
+        background: #0f0072;
+      }
     }
 
     .height-textarea {
@@ -66,4 +74,8 @@
 
 ::-webkit-input-placeholder {
   color: #0f0072;
+}
+
+p {
+  font-family: 'Roboto' !important;
 }

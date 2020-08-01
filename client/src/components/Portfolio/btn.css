@@ -7,11 +7,13 @@
   color: #0f0072;
   font-size: 0.8em;
   margin-top: 25px;
-  display: block; }
-  .btn-creations:hover {
-    border: 1px solid #fc3000;
-    background: #fc3000;
-    color: #fff; }
+  display: block;
+  text-align: center; }
+
+.btn-creations:hover {
+  border: 1px solid #fc3000;
+  background: #fc3000;
+  color: #fff; }
 
 .space-between {
   display: grid;

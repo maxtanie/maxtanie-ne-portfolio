@@ -15,7 +15,7 @@ export default class AboutBlock extends Component {
         className="container section-padding section-about"
         id="section-about"
       >
-        <h2 className="title uppercase">About</h2>
+        <h2 className="title uppercase ">About</h2>
         <div className="block-txt-section">
           <p className="lighter">{txtSection}</p>
         </div>

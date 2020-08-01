@@ -3,29 +3,25 @@ import { Switch, Route, withRouter } from "react-router-dom";
 import "./App.scss";
 
 import Home from "./components/Home/Home";
-import AboutReadMore from "./components/About/AboutReadMore.jsx/AboutReadMore.jsx";
-import PortfolioReadMore from "./components/Portfolio/PortfolioReadMore";
+
 import Nav from "./components/Nav/Nav";
 import ScrollUpButton from "react-scroll-up-button";
-import AlphaVerse from "./components/AlphaVerse/AlphaVerse";
-import ReadMore from "./components/Portfolio/ReadMore";
 import More from "./components/Portfolio/More";
-import Paginate from "./components/Portfolio/Paginate";
+import AboutMeReadMore from "./components/About/AboutMeReadMore";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Nav />
-        <Route className="App">
+        <Route>
           <Switch>
             <Route path="/" exact component={Home}></Route>
-            <Route path="/about-read-more" exact component={AboutReadMore} />
+            <Route path="/about-read-more" exact component={AboutMeReadMore} />
             <Route path="/portfolio/:id" exact component={More} />
-            <Route path="/alphaVerse" exact component={AlphaVerse} />
           </Switch>
         </Route>
-        <ScrollUpButton
+        {/* <ScrollUpButton
           StopPosition={0}
           ShowAtPosition={150}
           EasingType="easeOutCubic"
@@ -34,7 +30,7 @@ class App extends Component {
           TransitionClassName="ScrollUpButton__Toggled"
           style={{}}
           ToggledStyle={{}}
-        />
+        /> */}
       </div>
     );
   }

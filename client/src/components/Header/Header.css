@@ -1,15 +1,37 @@
-.bg-header {
+.container-700-px {
+  width: 700px;
+  max-width: 95%;
+  margin: auto; }
+
+#bg-header {
   width: 100%;
   position: relative;
-  display: inline-block;
   height: 100vh;
   background: #ffea02 url("../../images/header/bg-header.png") no-repeat;
   background-size: cover;
-  background-position: 40% 38%; }
-
-.container-header {
-  width: 700px;
-  margin: auto; }
+  background-position: center; }
+  #bg-header .txt-header {
+    font-size: 1.5em;
+    color: #0f0072;
+    line-height: 1.6;
+    margin-top: 20px; }
+  #bg-header .orange-triangle {
+    position: relative; }
+    #bg-header .orange-triangle:after {
+      position: absolute;
+      content: "";
+      border: 15px solid transparent;
+      border-bottom: 25px solid #fc3000;
+      margin-top: -20px;
+      margin-left: -63px; }
+    #bg-header .orange-triangle:before {
+      position: absolute;
+      content: "";
+      border: 11px solid transparent;
+      border-bottom: 20px solid #ffea02;
+      margin-top: -12.5px;
+      margin-left: 158.8px;
+      z-index: 999; }
 
 .txt-width {
   width: 500px;
@@ -18,29 +40,3 @@
   margin-top: 25px;
   font-weight: lighter;
   font-size: 1.2em; }
-
-.orange {
-  position: relative;
-  color: #fc3000; }
-  .orange:after {
-    position: absolute;
-    content: "";
-    border: 15px solid transparent;
-    border-bottom: 25px solid #fc3000;
-    margin-top: -20px;
-    margin-left: -55px; }
-  .orange:before {
-    position: absolute;
-    content: "";
-    border: 11px solid transparent;
-    border-bottom: 20px solid #ffea02;
-    margin-top: -12.5px;
-    margin-left: 156px;
-    z-index: 999; }
-
-.txt {
-  font-size: 1.1em;
-  color: #0f0072;
-  font-family: "roboto";
-  line-height: 1.6;
-  margin-top: 20px; }

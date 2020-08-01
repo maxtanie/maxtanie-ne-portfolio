@@ -8,8 +8,10 @@ export default class Contact extends Component {
     return (
       <section className="section-padding" id="section-contact">
         <div className="container">
-          <h1 className="title uppercase">{titleSection}</h1>
-          <p>{txtSection}</p>
+          <h1 className="title uppercase center">{titleSection}</h1>
+          <div className="block-txt-section">
+            <p className="lighter center">{txtSection}</p>
+          </div>
           <ContactForm />
         </div>
       </section>
