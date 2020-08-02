@@ -42,11 +42,12 @@
   margin: auto; }
 
 #hobbies .content-hobbies {
-  background: #fff url("../../images/about/plume.png") no-repeat center center;
+  background: #fff;
   background-attachment: fixed;
   background-size: 25%;
   background-position: 25%;
-  padding: 20px 50px; }
+  padding: 20px 50px;
+  color: #11055d; }
 
 #hobbies .content-hobbies .txt-intro-hobbies {
   margin-top: 20px;
@@ -55,7 +56,9 @@
 
 @media screen and (max-width: 768px) {
   #hobbies .content-hobbies {
-    padding: 25px; }
+    background: #11055d;
+    color: #fff !important;
+    padding: 30px 25px; }
   #hobbies .content-hobbies .txt-intro-hobbies {
     font-size: 1.1em; } }
 

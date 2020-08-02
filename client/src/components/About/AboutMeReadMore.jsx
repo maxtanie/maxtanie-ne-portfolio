@@ -44,8 +44,8 @@ export default class AboutMeReadMore extends Component {
         <article id="hobbies">
           <div className="container-atouts  gap-30-px">
             <div className="content-hobbies">
-              <h2 className="title uppercase blue">Mes intérêts</h2>
-              <p className="blue txt-intro-hobbies">
+              <h2 className="title uppercase">Mes intérêts</h2>
+              <p className="txt-intro-hobbies">
                 De manière quotidienne j'ai divers intérêts cependant je vous
                 introduit en partie mes principaux afin d'en apprendre davantage
                 sur moi et sur ma personnalité, bonne lecture :)
