@@ -9,11 +9,10 @@
   margin-top: 25px;
   display: block;
   text-align: center; }
-
-.btn-creations:hover {
-  border: 1px solid #fc3000;
-  background: #fc3000;
-  color: #fff; }
+  .btn-creations:hover {
+    border: 1px solid #fc3000;
+    background: #fc3000;
+    color: #fff; }
 
 .space-between {
   display: grid;

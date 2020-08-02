@@ -8,51 +8,43 @@
 .content-about {
   color: #fff !important;
   margin-top: 30px; }
-
-.content-about .block-img-about {
-  width: 260px;
-  height: 220px;
-  display: block;
-  border: 8px solid #fff;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1); }
-
-.content-about .block-img-about img {
-  width: 100%;
-  height: 100%; }
-
-@media screen and (max-width: 768px) {
   .content-about .block-img-about {
-    width: 100%;
-    height: 250px; } }
-
-.content-about .block-about-infos {
-  position: absolute;
-  width: 350px;
-  padding: 30px 20px;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
-  top: 350px;
-  left: 230px; }
-
-@media screen and (max-width: 768px) {
+    width: 260px;
+    height: 220px;
+    display: block;
+    border: 8px solid #fff;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1); }
+    .content-about .block-img-about img {
+      width: 100%;
+      height: 100%; }
+    @media screen and (max-width: 768px) {
+      .content-about .block-img-about {
+        width: 100%;
+        height: 250px; } }
   .content-about .block-about-infos {
-    position: relative !important;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; } }
-
-.content-about .block-about-infos .about-job {
-  margin-top: 10px; }
-
-.content-about .block-about-infos .about-job .title-about-job {
-  font-size: 2em; }
-
-.content-about .block-about-infos .circles-block {
-  width: 220px;
-  margin: auto;
-  display: block;
-  margin-top: 12px;
-  margin-bottom: 20px; }
+    position: absolute;
+    width: 350px;
+    padding: 30px 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    top: 350px;
+    left: 230px; }
+    @media screen and (max-width: 768px) {
+      .content-about .block-about-infos {
+        position: relative !important;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; } }
+    .content-about .block-about-infos .about-job {
+      margin-top: 10px; }
+      .content-about .block-about-infos .about-job .title-about-job {
+        font-size: 2em; }
+    .content-about .block-about-infos .circles-block {
+      width: 220px;
+      margin: auto;
+      display: block;
+      margin-top: 12px;
+      margin-bottom: 20px; }
 
 .section-padding-2 {
   padding-top: 150px;
@@ -65,10 +57,9 @@ iframe {
 .hobbies-img {
   width: 100%;
   height: 450px; }
-
-@media screen and (max-width: 768px) {
-  .hobbies-img {
-    height: 370px !important; } }
+  @media screen and (max-width: 768px) {
+    .hobbies-img {
+      height: 370px !important; } }
 
 .container-ab {
   width: 1500px !important;
@@ -89,10 +80,9 @@ iframe {
 .infos-hobbies {
   padding: 20px 50px;
   margin-top: -35px; }
-
-@media screen and (max-width: 768px) {
-  .infos-hobbies {
-    padding: 20px 0px; } }
+  @media screen and (max-width: 768px) {
+    .infos-hobbies {
+      padding: 20px 0px; } }
 
 .dots-slide {
   padding-bottom: 50px; }
@@ -102,10 +92,9 @@ iframe {
   font-size: 1.3em;
   margin-bottom: 25px;
   line-height: 1.6; }
-
-@media screen and (max-width: 768px) {
-  .txt-hobbies-content {
-    font-size: 1.1em; } }
+  @media screen and (max-width: 768px) {
+    .txt-hobbies-content {
+      font-size: 1.1em; } }
 
 .time-to-read {
   margin-top: 25px;

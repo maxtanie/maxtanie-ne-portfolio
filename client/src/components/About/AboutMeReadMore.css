@@ -56,8 +56,8 @@
 
 @media screen and (max-width: 768px) {
   #hobbies .content-hobbies {
-    background: #11055d;
-    color: #fff !important;
+    background: #fbfbfb;
+    color: #11055d !important;
     padding: 30px 25px; }
   #hobbies .content-hobbies .txt-intro-hobbies {
     font-size: 1.1em; } }

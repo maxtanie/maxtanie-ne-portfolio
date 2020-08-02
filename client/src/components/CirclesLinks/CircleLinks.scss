@@ -35,7 +35,7 @@
 
       &:hover {
         border: none;
-        background: #fc3000;
+        background: #0f0072;
         color: #fff;
       }
     }
@@ -109,19 +109,19 @@
     height: 18px;
     display: inline-block;
     vertical-align: middle;
-    border: 1px solid;
+    border: 1px solid #0f0072;
     border-radius: 100px;
     margin-right: 10px;
 
     &:hover {
-      background: #000;
+      background: #0f0072;
     }
   }
 
 }
 
 .active {
-  background: #000;
+  background: #0f0072;
 }
 
 .hobbies-img {
