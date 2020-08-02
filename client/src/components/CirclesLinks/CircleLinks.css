@@ -8,16 +8,16 @@
 
 .block-circles {
   cursor: pointer;
-  width: 350px;
-  margin: auto;
   margin-top: 35px;
   margin-bottom: 35px; }
   .block-circles .circles-content {
     width: 60px;
     text-align: center;
     font-size: 0.9em;
-    margin-right: 25px;
+    margin-right: 15px;
     color: #fff; }
+    .block-circles .circles-content:last-child {
+      margin-right: 0 !important; }
     .block-circles .circles-content .circles {
       width: 60px;
       height: 60px;

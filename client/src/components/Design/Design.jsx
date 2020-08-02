@@ -5,7 +5,7 @@ const Design = ({ img, txt, isDisplayed }) => {
   return (
     <div>
       <img src={img} alt="design" className="hobbies-img" />
-      <div className="time-to-read left">
+      <div className="time-to-read-hobbies left">
         <i className="far fa-clock yellow"></i>
         <span className="yellow"> 2 minutes de lecture</span>
       </div>

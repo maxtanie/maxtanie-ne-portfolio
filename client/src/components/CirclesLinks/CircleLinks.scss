@@ -10,9 +10,6 @@
 
 .block-circles {
   cursor: pointer;
-  width: 350px;
-
-  margin: auto;
   margin-top: 35px;
   margin-bottom: 35px;
 
@@ -20,8 +17,12 @@
     width: 60px;
     text-align: center;
     font-size: 0.9em;
-    margin-right: 25px;
+    margin-right: 15px;
     color: #fff;
+
+    &:last-child {
+      margin-right: 0 !important;
+    }
 
     .circles {
       width: 60px;
@@ -38,6 +39,8 @@
         color: #0f0072;
       }
     }
+
+
 
     .links-name {
       margin-top: 10px;

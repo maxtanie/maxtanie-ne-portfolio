@@ -11,7 +11,7 @@ const Gospel = ({ urlVideo, txt }) => {
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-      <div className="time-to-read left">
+      <div className="time-to-read-hobbies left">
         <i className="far fa-clock yellow"></i>
         <span className="yellow"> 1 minute 20 de lecture</span>
       </div>

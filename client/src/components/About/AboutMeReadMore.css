@@ -32,10 +32,10 @@
 
 @media screen and (max-width: 768px) {
   .padding-block-atout {
-    padding: 15px; } }
+    padding: 25px; } }
 
 #hobbies {
-  background: #0f0072; }
+  background: #11055d; }
 
 #hobbies .container-hobbies {
   width: 1200px;
@@ -54,8 +54,18 @@
   font-size: 1.7em; }
 
 @media screen and (max-width: 768px) {
+  #hobbies .content-hobbies {
+    padding: 25px; }
   #hobbies .content-hobbies .txt-intro-hobbies {
     font-size: 1.1em; } }
 
 .gap-30-px {
   grid-gap: 30px; }
+
+.time-to-read-hobbies {
+  margin-top: 25px; }
+
+@media screen and (max-width: 768px) {
+  .block-txt-about-me,
+  .time-to-read-hobbies {
+    padding: 0 25px; } }

@@ -43,7 +43,7 @@
     padding: 80px;
 
     @media screen and (max-width: 768px) {
-        padding: 15px;
+        padding: 25px;
     }
 }
 
@@ -51,7 +51,7 @@
 // HOBBIES
 
 #hobbies {
-    background: #0f0072;
+    background: #11055d;
 
     .container-hobbies {
         width: 1200px;
@@ -77,11 +77,14 @@
         @media screen and (max-width: 768px) {
 
 
-            // padding: 20px 40px 40px 40px;
+            padding: 25px;
 
             .txt-intro-hobbies {
                 font-size: 1.1em;
             }
+
+
+
         }
 
     }
@@ -89,6 +92,20 @@
 
 }
 
+
 .gap-30-px {
     grid-gap: 30px;
+}
+
+.time-to-read-hobbies {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .block-txt-about-me,
+    .time-to-read-hobbies {
+        padding: 0 25px;
+
+    }
 }
