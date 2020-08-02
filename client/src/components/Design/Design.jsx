@@ -6,8 +6,8 @@ const Design = ({ img, txt, isDisplayed }) => {
     <div>
       <img src={img} alt="design" className="hobbies-img" />
       <div className="time-to-read-hobbies left">
-        <i className="far fa-clock yellow"></i>
-        <span className="yellow"> 2 minutes de lecture</span>
+        <i className="far fa-clock orange"></i>
+        <span className="orange"> 2 minutes de lecture</span>
       </div>
       <article className="block-txt-about-me left">
         <p className="txt-hobbies-content">
