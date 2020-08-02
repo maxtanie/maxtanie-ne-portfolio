@@ -48,9 +48,10 @@ TXT STYLE
   font-size: 5em;
   font-weight: bold;
   text-transform: unset !important; }
-  @media screen and (max-width: 768px) {
-    .title {
-      font-size: 3em; } }
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 3em; } }
 
 .uppercase {
   text-transform: uppercase; }
@@ -75,7 +76,7 @@ TXT STYLE
 .normal {
   font-weight: normal;
   margin: 15px 0;
-  line-height: 1.7; }
+  line-height: 1.6; }
 
 .absolute-center {
   position: absolute;
