@@ -64,7 +64,11 @@ iframe {
 
 .hobbies-img {
   width: 100%;
-  height: 450px !important; }
+  height: 450px; }
+
+@media screen and (max-width: 768px) {
+  .hobbies-img {
+    height: 370px !important; } }
 
 .container-ab {
   width: 1500px !important;
