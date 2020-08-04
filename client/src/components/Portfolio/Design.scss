@@ -14,15 +14,12 @@
 // }
 
 .portfolio-section {
-  background: #fff;
+  background: #f9f9f9;
   min-height: 100vh;
   // overflow: hidden;
   color: #0f0072;
   background-size: contain;
 
-  @media screen and (max-width: 768px) {
-    background: #ffea02;
-  }
 }
 
 // .container-design {

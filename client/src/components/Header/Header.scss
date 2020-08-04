@@ -2,6 +2,7 @@
   width: 700px;
   max-width: 95%;
   margin: auto;
+  padding: 0 20px;
 }
 
 #bg-header {
@@ -14,11 +15,20 @@
   // background-position: 40% 38%;
   background-position: center;
 
+  @media screen and (max-width: 768px) {
+    background: #ffea02;
+    height: 60vh;
+  }
+
   .txt-header {
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: #0f0072;
     line-height: 1.6;
     margin-top: 20px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 1.1em;
+    }
   }
 
   .orange-triangle {
@@ -31,6 +41,13 @@
       border-bottom: 25px solid #fc3000;
       margin-top: -20px;
       margin-left: -63px;
+
+      @media screen and (max-width: 768px) {
+        position: absolute;
+        content: '';
+        margin-left: -41px;
+        border: 12px solid transparent !important;
+      }
     }
 
     &:before {
@@ -42,6 +59,10 @@
       margin-left: 151.5px;
       // margin-left: 66.8px;
       z-index: 999;
+
+      @media screen and (max-width: 768px) {
+        margin-left: 89.2px;
+      }
     }
   }
 }

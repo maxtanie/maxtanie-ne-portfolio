@@ -1,12 +1,8 @@
 .portfolio-section {
-  background: #fff;
+  background: #f5f5f5;
   min-height: 100vh;
   color: #0f0072;
   background-size: contain; }
-
-@media screen and (max-width: 768px) {
-  .portfolio-section {
-    background: #ffea02; } }
 
 .link-read-more {
   position: absolute;

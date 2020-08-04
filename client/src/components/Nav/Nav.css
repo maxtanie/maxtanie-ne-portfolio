@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 768px) {
   .nav {
-    display: block; } }
+    display: none; } }
 
 .nav .list-items {
   cursor: pointer;

@@ -21,6 +21,11 @@ h2 {
   font-weight: bold !important;
 }
 
+// p,
+// a {
+//   font-weight: 600 !important;
+// }
+
 /*
 ---------------------------------------------------
 CONTAINER STYLE
@@ -94,6 +99,10 @@ TXT STYLE
   margin-bottom: 25px;
 }
 
+.regular {
+  font-weight: 700;
+}
+
 .normal {
   font-weight: normal;
   margin: 15px 0;
@@ -119,6 +128,11 @@ TXT STYLE
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+  @media screen and (max-width: 1268px) {
+    display: block;
+    text-align: center;
+  }
 }
 
 .section-padding {

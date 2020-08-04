@@ -1,7 +1,8 @@
 .container-700-px {
   width: 700px;
   max-width: 95%;
-  margin: auto; }
+  margin: auto;
+  padding: 0 20px; }
 
 #bg-header {
   width: 100%;
@@ -11,11 +12,20 @@
   background-size: cover;
   background-position: center; }
 
+@media screen and (max-width: 768px) {
+  #bg-header {
+    background: #ffea02;
+    height: 60vh; } }
+
 #bg-header .txt-header {
-  font-size: 1.5em;
+  font-size: 1.6em;
   color: #0f0072;
   line-height: 1.6;
   margin-top: 20px; }
+
+@media screen and (max-width: 768px) {
+  #bg-header .txt-header {
+    font-size: 1.1em; } }
 
 #bg-header .orange-triangle {
   position: relative; }
@@ -28,6 +38,13 @@
   margin-top: -20px;
   margin-left: -63px; }
 
+@media screen and (max-width: 768px) {
+  #bg-header .orange-triangle:after {
+    position: absolute;
+    content: '';
+    margin-left: -41px;
+    border: 12px solid transparent !important; } }
+
 #bg-header .orange-triangle:before {
   position: absolute;
   content: "";
@@ -36,6 +53,10 @@
   margin-top: -12.5px;
   margin-left: 151.5px;
   z-index: 999; }
+
+@media screen and (max-width: 768px) {
+  #bg-header .orange-triangle:before {
+    margin-left: 89.2px; } }
 
 .txt-width {
   width: 500px;
