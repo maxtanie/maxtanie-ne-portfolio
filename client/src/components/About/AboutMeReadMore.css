@@ -4,63 +4,53 @@
 .container-atouts {
   display: grid;
   grid-template-columns: 1fr 1fr; }
-
-@media screen and (max-width: 768px) {
-  .container-atouts {
-    display: block; } }
-
-.container-atouts .txt-atouts {
-  max-width: 100%;
-  font-size: 1.8em;
-  line-height: 1.7;
-  margin: auto;
-  margin-top: 15px; }
-
-@media screen and (max-width: 1068px) {
+  @media screen and (max-width: 768px) {
+    .container-atouts {
+      display: block; } }
   .container-atouts .txt-atouts {
-    font-size: 1.1em; } }
-
-.container-atouts .block-atouts {
-  background: #fff; }
-
-@media screen and (max-width: 768px) {
+    max-width: 100%;
+    font-size: 1.8em;
+    line-height: 1.7;
+    margin: auto;
+    margin-top: 15px; }
+    @media screen and (max-width: 1068px) {
+      .container-atouts .txt-atouts {
+        font-size: 1.1em; } }
   .container-atouts .block-atouts {
-    margin-top: -60px; } }
+    background: #fff; }
+    @media screen and (max-width: 768px) {
+      .container-atouts .block-atouts {
+        margin-top: -60px; } }
 
 .padding-block-atout {
   padding: 80px; }
-
-@media screen and (max-width: 768px) {
-  .padding-block-atout {
-    padding: 25px; } }
+  @media screen and (max-width: 768px) {
+    .padding-block-atout {
+      padding: 25px; } }
 
 #hobbies {
   background: #fff; }
-
-#hobbies .container-hobbies {
-  width: 1200px;
-  margin: auto; }
-
-#hobbies .content-hobbies {
-  background: #0f0072;
-  background-attachment: fixed;
-  background-size: 25%;
-  background-position: 25%;
-  padding: 50px 50px;
-  color: #fff; }
-
-#hobbies .content-hobbies .txt-intro-hobbies {
-  margin-top: 20px;
-  line-height: 1.6;
-  font-size: 1.7em; }
-
-@media screen and (max-width: 768px) {
+  #hobbies .container-hobbies {
+    width: 1200px;
+    margin: auto; }
   #hobbies .content-hobbies {
-    background: #0f0072;
-    color: #fff !important;
-    padding: 50px 25px; }
-  #hobbies .content-hobbies .txt-intro-hobbies {
-    font-size: 1.1em; } }
+    background: #fff url("../../images//about//plume.png") no-repeat center;
+    background-attachment: fixed;
+    background-size: 25%;
+    background-position: 25%;
+    padding: 50px 50px;
+    color: #0f0072; }
+    #hobbies .content-hobbies .txt-intro-hobbies {
+      margin-top: 20px;
+      line-height: 1.6;
+      font-size: 1.7em; }
+    @media screen and (max-width: 768px) {
+      #hobbies .content-hobbies {
+        background: #0f0072;
+        color: #fff !important;
+        padding: 50px 25px; }
+        #hobbies .content-hobbies .txt-intro-hobbies {
+          font-size: 1.1em; } }
 
 .gap-30-px {
   grid-gap: 30px; }

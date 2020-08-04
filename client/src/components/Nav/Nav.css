@@ -7,21 +7,25 @@
   left: 0;
   right: 0;
   background: #ffea02;
-  z-index: 2; }
-  @media screen and (max-width: 768px) {
-    .nav {
-      display: none; } }
-  .nav .list-items {
-    cursor: pointer;
-    list-style: none; }
-    .nav .list-items a {
-      padding: 30px 15px;
-      display: block;
-      text-decoration: none;
-      color: #0f0072;
-      transition: 0.3s ease; }
-      .nav .list-items a:hover {
-        color: #fc3000; }
+  z-index: 99999; }
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: block; } }
+
+.nav .list-items {
+  cursor: pointer;
+  list-style: none; }
+
+.nav .list-items a {
+  padding: 30px 15px;
+  display: block;
+  text-decoration: none;
+  color: #0f0072;
+  transition: 0.3s ease; }
+
+.nav .list-items a:hover {
+  color: #fc3000; }
 
 .active {
   color: red;

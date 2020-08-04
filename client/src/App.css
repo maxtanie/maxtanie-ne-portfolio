@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #ffea02;
+  background: #fff;
   font-family: 'source sans pro', sans-serif !important;
   overflow-x: hidden !important; }
 
@@ -48,10 +48,9 @@ TXT STYLE
   font-size: 5em;
   font-weight: bold;
   text-transform: unset !important; }
-
-@media screen and (max-width: 768px) {
-  .title {
-    font-size: 3em; } }
+  @media screen and (max-width: 768px) {
+    .title {
+      font-size: 3em; } }
 
 .uppercase {
   text-transform: uppercase; }
@@ -71,7 +70,7 @@ TXT STYLE
 .lighter {
   font-family: "roboto light";
   line-height: 1.62;
-  margin: 15px 0; }
+  margin-bottom: 25px; }
 
 .normal {
   font-weight: normal;

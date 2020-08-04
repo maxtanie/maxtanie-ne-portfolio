@@ -1,5 +1,4 @@
-[
-  {
+[{
     "id": 1,
     "item": "personal",
     "creationName": "BibleVerse",
@@ -7,8 +6,7 @@
     "urlImg": "img/portfolio/personal-projects/bible-verse.png",
     "alt": "Bible verse design",
     "shortDescription": "A design inspired by the chapter of John 14 verse 6.",
-    "FullDescriptions": [
-      {
+    "FullDescriptions": [{
         "title": "The projects",
         "txt": "Projet personnel réalisé en 2017. Création du logo, Design web et Développement du site vitrine responsive d'un restaurant / sushi bar."
       },
@@ -30,8 +28,7 @@
     "urlImg": "img/portfolio/personal-projects/design-home.png",
     "alt": "Homepage design",
     "shortDescription": "A beautiful design of a home shop page.",
-    "FullDescriptions": [
-      {
+    "FullDescriptions": [{
         "title": "The projects",
         "txt": "Uniformisation des développements par la création d'un coeur commun à tous les projets du périmètre. Le projet est conçu en responsive design avec détection de device côté serveur. Création d'un framework CSS interne. Rédaction des guidelines de développement front-end (templates de pages, blocs et strips, SASS, charte graphique à respecter, ...)"
       },
@@ -53,8 +50,7 @@
     "urlImg": "img/portfolio/personal-projects/girl-play-3.png",
     "alt": "Bible verse design",
     "shortDescription": "A design inspired by the chapter of John 14 verse 6.",
-    "FullDescriptions": [
-      {
+    "FullDescriptions": [{
         "title": "The projects",
         "txt": "Projet personnel réalisé en 2017. Création du logo, Design web et Développement du site vitrine responsive d'un restaurant / sushi bar."
       },
@@ -76,8 +72,7 @@
     "urlImg": "img/portfolio/logo/logo-testify.png",
     "alt": "Testify logo design",
     "shortDescription": "A christian Logo for my outfit for christian",
-    "FullDescriptions": [
-      {
+    "FullDescriptions": [{
         "title": "The projects",
         "txt": "Uniformisation des développements par la création d'un coeur commun à tous les projets du périmètre. Le projet est conçu en responsive design avec détection de device côté serveur. Création d'un framework CSS interne. Rédaction des guidelines de développement front-end (templates de pages, blocs et strips, SASS, charte graphique à respecter, ...)"
       },

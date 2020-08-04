@@ -2,8 +2,7 @@
   text-transform: capitalize; }
 
 .container {
-  width: 700px;
-  min-height: 500px;
+  width: 900px;
   position: relative; }
 
 .small {
@@ -19,8 +18,9 @@
 .arrow {
   position: absolute;
   right: 50px; }
-  .arrow:nth-child(1) {
-    top: 50px; }
+
+.arrow:nth-child(1) {
+  top: 50px; }
 
 .arrow2 {
   position: absolute;

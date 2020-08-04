@@ -1,98 +1,22 @@
 .portfolio-section {
-  background: #ffea02 url("../../images/portfolio/bg-portfolio.png") no-repeat center;
+  background: #ffea02;
   min-height: 100vh;
-  overflow: hidden;
   color: #0f0072;
   background-size: contain; }
 
-.container-design {
-  width: 800px;
-  margin-top: 50px; }
-  @media screen and (max-width: 768px) {
-    .container-design {
-      max-width: 100%; } }
+@media screen and (max-width: 768px) {
+  .portfolio-section {
+    background: #ffea02; } }
 
-.grid-creations,
-.filter-item {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
-  grid-template-rows: repeat(auto-fit, minmax(350px, 1fr)) !important;
-  grid-gap: 20px; }
-  @media screen and (max-width: 768px) {
-    .grid-creations,
-    .filter-item {
-      max-width: 100%;
-      display: block; } }
-
-.filter-item {
-  width: 50%;
-  max-width: 100%;
-  margin-bottom: 4%; }
-  @media screen and (max-width: 768px) {
-    .filter-item {
-      width: 100% !important;
-      display: block !important; } }
-
-.box-design {
-  width: 100%;
-  max-width: 100%;
-  margin: auto;
+.link-read-more {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+  text-decoration: none;
   display: block;
-  position: relative;
-  margin-top: 20px; }
-  .box-design .block-img {
-    position: relative;
-    width: 220px;
-    height: 230px;
-    border: 8px solid #fff;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1); }
-    .box-design .block-img img {
-      width: 100%;
-      height: 100%;
-      display: block; }
-    @media screen and (max-width: 768px) {
-      .box-design .block-img {
-        width: 100%;
-        height: 350px; } }
-  .box-design .block-content-txt {
-    position: absolute;
-    color: #0f0072;
-    width: 220px;
-    min-height: 200px;
-    background: #fff;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    margin-top: -15px;
-    left: 150px;
-    top: 160px; }
-    @media screen and (max-width: 768px) {
-      .box-design .block-content-txt {
-        width: 100%;
-        position: relative;
-        top: 0;
-        left: 0; } }
-    .box-design .block-content-txt .id {
-      font-size: 1.2em;
-      font-weight: normal;
-      text-align: left !important; }
-    .box-design .block-content-txt .creation-name {
-      margin: 10px 0;
-      font-size: 1.7em;
-      text-transform: uppercase; }
-    .box-design .block-content-txt .creation-infos {
-      margin: 10px 0;
-      text-align: center;
-      font-family: "source sans pro light";
-      font-size: 0.95em; }
-    .box-design .block-content-txt .link-read-more {
-      text-align: right;
-      text-decoration: none;
-      display: block;
-      color: #fc3000;
-      transition: 0.3s ease;
-      font-weight: bold; }
-      .box-design .block-content-txt .link-read-more:hover {
-        color: #0f0072; }
+  color: #fc3000;
+  transition: 0.3s ease;
+  font-weight: bold; }
 
-.link-none {
-  color: inherit; }
+.link-read-more:hover {
+  color: #0f0072; }

@@ -1,48 +1,35 @@
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
-import infos from "./infos";
+import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
+import infos from './infos';
+import './BoxCreations.scss';
 
-export default class Box extends Component {
-  state = {
-    vals: infos,
-    creations: ""
-  };
+export default class BoxCreations extends Component {
+	state = {
+		vals: infos,
+		creations: '',
+	};
 
-  render() {
-    const {
-      id,
-      image,
-      alt,
-      filterItem,
-      titleCreations,
-      title,
-      shortDescription
-    } = this.props;
-    return (
-      <div className={`filter-item  ${filterItem}`}>
-        <div className="box-design">
-          <a
-            className="link-none"
-            href={`/portfolio/${titleCreations.toLowerCase()}`}
-          >
-            <div className="block-img">
-              <img src={image} alt={alt} />
-            </div>
-            <div className="block-content-txt">
-              <h6 className="id">{id < 10 ? `0${id}` : `${id}`}</h6>
-              <h4 className="creation-name center">{titleCreations}</h4>
-              <p className="creation-list center">{title}</p>
-              <p className="creation-infos center">{shortDescription}</p>
-              <a
-                className="link-read-more"
-                href={`/portfolio/${titleCreations.toLowerCase()}`}
-              >
-                Read more...
-              </a>
-            </div>
-          </a>
-        </div>
-      </div>
-    );
-  }
+	render() {
+		return (
+			<article className={`filter-item box-creations ${this.props.filterItem}`}>
+				<img src={this.props.image} alt="" />
+
+				<aside className={`creations`}>
+					<div className="bloc-infos">
+						<h5 className="id-creations">0{this.props.id}</h5>
+						<div className="infos">
+							<h2>{this.props.titleCreations}</h2>
+							<p class="title-creations">{this.props.title}</p>
+							<p className="txt-creations">
+								Un design qui est inspiré du verset de Jean 13 : 6 de la Bible
+							</p>
+						</div>
+					</div>
+					<NavLink className="link-read-more" to={`/portfolio/${this.props.titleCreations.toLowerCase()}`}>
+						Voir plus...
+					</NavLink>
+				</aside>
+			</article>
+		);
+	}
 }
