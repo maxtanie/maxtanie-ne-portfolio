@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 768px) {
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); } }
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); } }
 
 .block-skills {
   position: relative;

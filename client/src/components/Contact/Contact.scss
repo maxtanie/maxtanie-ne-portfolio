@@ -8,6 +8,10 @@
   background-position: right 5%;
   color: #0f0072 !important;
 
+  @media screen and (max-width: 768px) {
+    background-size: cover;
+  }
+
   padding-top: 60px;
   padding-bottom: 40px;
 

@@ -10,28 +10,32 @@
   background: #ffea02 url("../../images/header/bg-header.png") no-repeat;
   background-size: cover;
   background-position: center; }
-  #bg-header .txt-header {
-    font-size: 1.5em;
-    color: #0f0072;
-    line-height: 1.6;
-    margin-top: 20px; }
-  #bg-header .orange-triangle {
-    position: relative; }
-    #bg-header .orange-triangle:after {
-      position: absolute;
-      content: "";
-      border: 15px solid transparent;
-      border-bottom: 25px solid #fc3000;
-      margin-top: -20px;
-      margin-left: -63px; }
-    #bg-header .orange-triangle:before {
-      position: absolute;
-      content: "";
-      border: 11px solid transparent;
-      border-bottom: 20px solid #ffea02;
-      margin-top: -12.5px;
-      margin-left: 158.8px;
-      z-index: 999; }
+
+#bg-header .txt-header {
+  font-size: 1.5em;
+  color: #0f0072;
+  line-height: 1.6;
+  margin-top: 20px; }
+
+#bg-header .orange-triangle {
+  position: relative; }
+
+#bg-header .orange-triangle:after {
+  position: absolute;
+  content: "";
+  border: 15px solid transparent;
+  border-bottom: 25px solid #fc3000;
+  margin-top: -20px;
+  margin-left: -63px; }
+
+#bg-header .orange-triangle:before {
+  position: absolute;
+  content: "";
+  border: 11px solid transparent;
+  border-bottom: 20px solid #ffea02;
+  margin-top: -12.5px;
+  margin-left: 151.5px;
+  z-index: 999; }
 
 .txt-width {
   width: 500px;
