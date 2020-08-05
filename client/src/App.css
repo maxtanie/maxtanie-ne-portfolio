@@ -71,7 +71,8 @@ TXT STYLE
 .lighter {
   font-family: "roboto light";
   line-height: 1.62;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  margin-top: 5px; }
 
 .regular {
   font-weight: 700; }

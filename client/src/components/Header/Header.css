@@ -53,7 +53,8 @@
 
 @media screen and (max-width: 768px) {
   #bg-header .orange-triangle:before {
-    margin-left: 89.2px; } }
+    margin-left: 89px;
+    margin-top: -10px; } }
 
 .txt-width {
   width: 500px;
