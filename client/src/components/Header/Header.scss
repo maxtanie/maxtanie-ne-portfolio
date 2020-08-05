@@ -17,7 +17,7 @@
 
   @media screen and (max-width: 768px) {
     background: #ffea02;
-    height: 60vh;
+    height: 100vh;
   }
 
   .txt-header {
@@ -27,7 +27,7 @@
     margin-top: 20px;
 
     @media screen and (max-width: 768px) {
-      font-size: 1.1em;
+      font-size: 1.2em;
     }
   }
 
@@ -43,10 +43,7 @@
       margin-left: -63px;
 
       @media screen and (max-width: 768px) {
-        position: absolute;
-        content: '';
         margin-left: -41px;
-        border: 12px solid transparent !important;
       }
     }
 
