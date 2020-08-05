@@ -14,10 +14,12 @@
 // }
 
 .portfolio-section {
-  background: #0f0072;
+  background: #fff;
+  border-top: 1px solid rgba(15, 0, 114, 0.095);
+  padding-top: 30px;
   min-height: 100vh;
   // overflow: hidden;
-  color: #fff;
+  color: #0f0072;
   background-size: contain;
 
 }
