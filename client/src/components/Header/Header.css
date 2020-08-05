@@ -40,7 +40,8 @@
 
 @media screen and (max-width: 768px) {
   #bg-header .orange-triangle:after {
-    margin-left: -41px; } }
+    margin-left: -41px;
+    border: none; } }
 
 #bg-header .orange-triangle:before {
   position: absolute;
