@@ -25,9 +25,9 @@ export default class BoxCreations extends Component {
 							</p>
 						</div>
 					</div>
-					<NavLink className="link-read-more" to={`/portfolio/${this.props.titleCreations.toLowerCase()}`}>
+					<a className="link-read-more" href={`/portfolio/${this.props.titleCreations.toLowerCase()}`}>
 						Voir plus...
-					</NavLink>
+					</a>
 				</aside>
 			</article>
 		);
