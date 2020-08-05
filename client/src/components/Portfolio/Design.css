@@ -1,6 +1,6 @@
 .portfolio-section {
-  background: #fff;
-  border-top: 1px solid rgba(15, 0, 114, 0.047);
+  background: #fdfdfd;
+  border-top: 1px solid rgba(15, 0, 114, 0.017);
   min-height: 100vh;
   color: #0f0072;
   background-size: contain; }
@@ -11,9 +11,9 @@
   right: 25px;
   text-decoration: none;
   display: block;
-  color: #ffea02;
+  color: #fc3000;
   transition: 0.3s ease;
   font-weight: bold; }
 
 .link-read-more:hover {
-  color: #fff; }
+  color: #0f0072; }
