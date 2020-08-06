@@ -1,9 +1,9 @@
 .creationsPage2 {
   width: 1400px;
-  max-width: 95%;
+  max-width: 100%;
   margin: auto;
   background: #fff;
-  padding: 40px 25px;
+  padding: 40px 15px;
   color: #0f0072 !important; }
 
 .creationsPage2 img {
@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 768px) {
   .creationsPage2 .block-content .creations-title {
-    font-size: 3em; } }
+    font-size: 2.2em; } }
 
 .creationsPage2 .block-content .creations-title-bis {
   font-weight: normal;
@@ -113,7 +113,7 @@
 
 .creationsPage2 .block-content .infos-txt .block-txt .title-infos {
   font-family: 'Cookie', cursive;
-  font-size: 60px;
+  font-size: 45px;
   color: #0f0072;
   font-weight: normal !important; }
 
