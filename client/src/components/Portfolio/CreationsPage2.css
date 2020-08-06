@@ -1,55 +1,37 @@
 .creationsPage2 {
   width: 1400px;
-  max-width: 90%;
+  max-width: 95%;
   margin: auto;
-  font-family: "roboto";
   background: #fff;
-  padding: 40px; }
-  .creationsPage2 img {
-    margin-top: 35px; }
-  @media screen and (max-width: 768px) {
-    .creationsPage2 {
-      width: 100%; } }
-  .creationsPage2 .block-content {
-    position: relative;
-    border-left: transparent;
-    padding-bottom: 50px;
-    min-height: 500px; }
-    .creationsPage2 .block-content .block-nb-id {
-      display: inline-block;
-      background: #fff;
-      margin-top: 0px; }
-      .creationsPage2 .block-content .block-nb-id .id-project {
-        font-size: 4em;
-        font-weight: bold; }
-      .creationsPage2 .block-content .block-nb-id .length-project {
-        display: inline-block;
-        font-size: 1.8em;
-        font-weight: lighter;
-        margin-top: 65px;
-        margin-left: 5px;
-        transition: 1s linear; }
-        .creationsPage2 .block-content .block-nb-id .length-project:after {
-          content: "";
-          position: absolute;
-          width: 500px;
-          max-width: 50%;
-          margin-top: 10px;
-          margin-left: 30px;
-          height: 9px;
-          overflow: hidden;
-          background: #1b1b1b;
-          z-index: 97; }
-        .creationsPage2 .block-content .block-nb-id .length-project:before {
-          position: absolute;
-          content: "";
-          width: 0;
-          margin-top: 10px;
-          margin-left: 72px;
-          z-index: 98;
-          height: 9px;
-          background: #ffea02;
-          animation: animated 0.5s linear; }
+  padding: 40px 25px;
+  color: #0f0072 !important; }
+
+.creationsPage2 img {
+  margin-top: 35px; }
+
+.creationsPage2 .block-content {
+  position: relative;
+  border-left: transparent;
+  padding-bottom: 50px;
+  min-height: 500px; }
+
+.creationsPage2 .block-content .block-nb-id {
+  display: inline-block;
+  background: #fff;
+  margin-top: 0px;
+  color: #f5f5f5; }
+
+.creationsPage2 .block-content .block-nb-id .id-project {
+  font-size: 4em;
+  font-weight: bold; }
+
+.creationsPage2 .block-content .block-nb-id .length-project {
+  display: inline-block;
+  font-size: 1.8em;
+  font-weight: lighter;
+  margin-top: 65px;
+  margin-left: 5px;
+  transition: 1s linear; }
 
 @keyframes animated {
   0% {
@@ -60,102 +42,115 @@
     width: 250px; }
   100% {
     width: 500px; } }
-    .creationsPage2 .block-content .creations-title {
-      font-size: 4.5em;
-      text-transform: uppercase;
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.074);
-      text-align: center;
-      margin-top: 35px;
-      font-weight: bold;
-      color: #fff;
-      letter-spacing: 5px; }
-      @media screen and (max-width: 768px) {
-        .creationsPage2 .block-content .creations-title {
-          font-size: 3em; } }
-    .creationsPage2 .block-content .creations-title-bis {
-      font-weight: normal;
-      text-transform: uppercase;
-      opacity: 0.6; }
-    .creationsPage2 .block-content .item-name {
-      position: relative;
-      margin-left: 15px;
-      margin-top: 10px;
-      font-family: "roboto light";
-      font-size: 1.2em;
-      text-transform: capitalize; }
-      .creationsPage2 .block-content .item-name:after {
-        position: absolute;
-        content: "";
-        width: 25px;
-        height: 5px;
-        background: #1b1b1b;
-        margin-top: 20px;
-        margin-left: 4px; }
-    .creationsPage2 .block-content .content-slide-img {
-      margin-top: 50px; }
-      .creationsPage2 .block-content .content-slide-img img {
-        max-width: 100%; }
-    .creationsPage2 .block-content .block-btn {
-      width: 100%;
-      margin-top: 30px;
-      text-align: center; }
-      .creationsPage2 .block-content .block-btn .btn-see-link {
-        width: 150px;
-        height: 40px;
-        line-height: 40px;
-        border: 1px solid #1b1b1b;
-        display: inline-block;
-        text-transform: uppercase;
-        font-size: 0.8em;
-        margin-right: 10px; }
-        .creationsPage2 .block-content .block-btn .btn-see-link:last-of-type {
-          margin-right: 0; }
-        .creationsPage2 .block-content .block-btn .btn-see-link:nth-child(1) {
-          background: #1b1b1b;
-          color: #fff; }
-    .creationsPage2 .block-content .infos-txt .block-txt {
-      width: 500px;
-      max-width: 100%;
-      margin-top: 20px; }
-      .creationsPage2 .block-content .infos-txt .block-txt .title-infos {
-        font-family: "great wishes";
-        font-size: 2.3em;
-        color: #1b1b1b; }
-      .creationsPage2 .block-content .infos-txt .block-txt .txt-infos {
-        line-height: 1.6;
-        text-align: justify;
-        margin-top: 10px;
-        color: #2e2c2c;
-        font-weight: normal; }
+
+.creationsPage2 .block-content .creations-title {
+  font-size: 4.5em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #0f0072;
+  letter-spacing: 5px; }
+
+@media screen and (max-width: 768px) {
+  .creationsPage2 .block-content .creations-title {
+    font-size: 3em; } }
+
+.creationsPage2 .block-content .creations-title-bis {
+  font-weight: normal;
+  text-transform: uppercase;
+  opacity: 0.6; }
+
+.creationsPage2 .block-content .item-name {
+  position: relative;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 1.2em;
+  text-transform: capitalize; }
+
+.creationsPage2 .block-content .item-name:after {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 5px;
+  background: #0f0072;
+  margin-top: 20px;
+  margin-left: 4px; }
+
+.creationsPage2 .block-content .content-slide-img {
+  margin-top: 50px; }
+
+.creationsPage2 .block-content .content-slide-img img {
+  max-width: 100%; }
+
+.creationsPage2 .block-content .block-btn {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center; }
+
+.creationsPage2 .block-content .block-btn .btn-see-link {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #0f0072;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-right: 10px; }
+
+.creationsPage2 .block-content .block-btn .btn-see-link:last-of-type {
+  margin-right: 0; }
+
+.creationsPage2 .block-content .block-btn .btn-see-link:nth-child(1) {
+  background: #0f0072;
+  color: #fff; }
+
+.creationsPage2 .block-content .infos-txt .block-txt {
+  width: 500px;
+  max-width: 100%;
+  margin-top: 20px; }
+
+.creationsPage2 .block-content .infos-txt .block-txt .title-infos {
+  font-family: 'Cookie', cursive;
+  font-size: 60px;
+  color: #0f0072;
+  font-weight: normal !important; }
+
+.creationsPage2 .block-content .infos-txt .block-txt .txt-infos {
+  line-height: 1.6;
+  margin-top: 10px;
+  color: #0f0072; }
 
 .container-creations-bis {
   width: 1200px;
   max-width: 100%;
-  padding: 20px;
   margin: auto; }
 
 .grid-creations-2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)) !important;
   grid-gap: 20px; }
-  @media screen and (max-width: 768px) {
-    .grid-creations-2 {
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
-      grid-gap: 0; } }
+
+@media screen and (max-width: 768px) {
+  .grid-creations-2 {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    grid-gap: 0; } }
 
 .arrow-btn {
   cursor: pointer;
   outline: none;
   position: absolute;
-  font-size: 1em;
+  font-size: .8em;
   font-weight: normal;
   z-index: 999;
-  color: #1b1b1b;
+  color: #0f0072;
   background: transparent;
   border: none;
-  transition: font-size 0.3s ease-in-out; }
-  .arrow-btn:hover {
-    font-size: 0.9em; }
+  transition: 0.3s ease-in-out; }
+
+.arrow-btn:hover {
+  font-size: 0.9em; }
 
 .left {
   left: 25px; }

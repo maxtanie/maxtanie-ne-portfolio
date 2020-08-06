@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'great wishes';
+  src: url("./font/great-wishes.otf") format("truetype"); }
+
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +14,6 @@ body {
 
 img {
   max-width: 100%; }
-
-h2 {
-  font-weight: bold !important; }
 
 /*
 ---------------------------------------------------
@@ -46,7 +47,6 @@ TXT STYLE
 
 .title {
   font-size: 5em;
-  font-weight: bold;
   text-transform: unset !important; }
 
 @media screen and (max-width: 768px) {

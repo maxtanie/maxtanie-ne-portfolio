@@ -6,44 +6,38 @@
   color: #0f0072 !important;
   padding-top: 60px;
   padding-bottom: 40px; }
-
-@media screen and (max-width: 768px) {
-  #section-contact {
-    background-size: cover; } }
-
-#section-contact .container-contact {
-  width: 550px;
-  margin: auto;
-  max-width: 90%;
-  margin-top: 25px; }
-
-#section-contact .container-contact .contact-style {
-  width: 100%;
-  outline: none;
-  border: 1px solid transparent;
-  border-bottom: 1px solid #0f0072;
-  padding: 10px;
-  line-height: 1.5;
-  margin-bottom: 30px;
-  background: transparent;
-  color: #0f0072; }
-
-#section-contact .container-contact .btn-style {
-  outline: none;
-  width: 100%;
-  cursor: pointer;
-  border: none !important;
-  padding: 15px 25px;
-  background: #fc3000;
-  font-size: 1.1em;
-  color: #fff;
-  transition: background 0.3s ease-in-out; }
-
-#section-contact .container-contact .btn-style:hover {
-  background: #0f0072; }
-
-#section-contact .container-contact .height-textarea {
-  min-height: 150px; }
+  @media screen and (max-width: 768px) {
+    #section-contact {
+      background-size: cover; } }
+  #section-contact .container-contact {
+    width: 550px;
+    margin: auto;
+    max-width: 90%;
+    margin-top: 25px; }
+    #section-contact .container-contact .contact-style {
+      width: 100%;
+      outline: none;
+      border: 1px solid transparent;
+      border-bottom: 1px solid #0f0072;
+      padding: 10px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+      background: transparent;
+      color: #0f0072; }
+    #section-contact .container-contact .btn-style {
+      outline: none;
+      width: 100%;
+      cursor: pointer;
+      border: none !important;
+      padding: 15px 25px;
+      background: #fc3000;
+      font-size: 1.1em;
+      color: #fff;
+      transition: background 0.3s ease-in-out; }
+      #section-contact .container-contact .btn-style:hover {
+        background: #0f0072; }
+    #section-contact .container-contact .height-textarea {
+      min-height: 150px; }
 
 .red {
   color: #fc3000 !important;

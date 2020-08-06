@@ -1,0 +1,129 @@
+.creations-section {
+  padding-top: 5px;
+  padding-bottom: 20px; }
+
+.container-creation {
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  line-height: 1.7;
+  text-align: justify; }
+  @media screen and (max-width: 1024px) {
+    .container-creation {
+      padding-top: 20px;
+      margin-top: 50px;
+      width: 600px; } }
+  @media screen and (max-width: 700px) {
+    .container-creation {
+      padding-top: 20px;
+      margin-top: 50px;
+      width: 300px; } }
+  .container-creation .grid-creations,
+  .container-creation .filter-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .container-creation .grid-creations .box-creations,
+    .container-creation .filter-item .box-creations {
+      cursor: pointer;
+      position: relative;
+      height: 350px;
+      background: #fff; }
+      .container-creation .grid-creations .box-creations img,
+      .container-creation .filter-item .box-creations img {
+        width: 100%;
+        height: 100%; }
+      .container-creation .grid-creations .box-creations:hover .creations,
+      .container-creation .filter-item .box-creations:hover .creations {
+        opacity: 1;
+        transition: .3s ease-in-out; }
+      .container-creation .grid-creations .box-creations .creations,
+      .container-creation .filter-item .box-creations .creations {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        min-height: 230px;
+        text-align: center;
+        background: #fff;
+        opacity: 0;
+        transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+        box-shadow: 2px 2px 2px 2px rgba(15, 0, 114, 0.021); }
+        .container-creation .grid-creations .box-creations .creations .bloc-infos,
+        .container-creation .filter-item .box-creations .creations .bloc-infos {
+          position: absolute;
+          width: 85%;
+          min-height: 230px;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          border: 1.5px solid #0f0072; }
+          .container-creation .grid-creations .box-creations .creations .bloc-infos::before, .container-creation .grid-creations .box-creations .creations .bloc-infos::after,
+          .container-creation .filter-item .box-creations .creations .bloc-infos::before,
+          .container-creation .filter-item .box-creations .creations .bloc-infos::after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 12px;
+            top: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #fff; }
+          .container-creation .grid-creations .box-creations .creations .bloc-infos:after,
+          .container-creation .filter-item .box-creations .creations .bloc-infos:after {
+            top: 98%; }
+          .container-creation .grid-creations .box-creations .creations .bloc-infos .infos,
+          .container-creation .filter-item .box-creations .creations .bloc-infos .infos {
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); }
+            .container-creation .grid-creations .box-creations .creations .bloc-infos .infos h2,
+            .container-creation .filter-item .box-creations .creations .bloc-infos .infos h2 {
+              font-size: 1.3em;
+              text-transform: uppercase;
+              color: #0f0072; }
+            .container-creation .grid-creations .box-creations .creations .bloc-infos .infos p,
+            .container-creation .filter-item .box-creations .creations .bloc-infos .infos p {
+              color: #0f0072;
+              font-family: "calibri"; }
+
+.icon {
+  width: 70px;
+  margin: auto;
+  display: block;
+  margin-bottom: 40px; }
+
+.filter-item {
+  display: grid;
+  width: 30%;
+  max-width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-right: 1em;
+  margin-bottom: 1em; }
+  @media screen and (max-width: 1000px) {
+    .filter-item {
+      width: 30%; } }
+  @media screen and (max-width: 768px) {
+    .filter-item {
+      width: 100%;
+      display: block; } }
+
+.txt-creations {
+  font-size: 0.95em;
+  padding: 0 15px;
+  color: #0f0072 !important;
+  font-weight: normal !important;
+  margin-top: 15px; }
+
+.id-creations {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  font-size: 1.2em;
+  color: #0f0072; }
+
+.title-creations {
+  font-weight: bold; }

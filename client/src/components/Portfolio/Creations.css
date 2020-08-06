@@ -18,9 +18,8 @@
 .arrow {
   position: absolute;
   right: 50px; }
-
-.arrow:nth-child(1) {
-  top: 50px; }
+  .arrow:nth-child(1) {
+    top: 50px; }
 
 .arrow2 {
   position: absolute;

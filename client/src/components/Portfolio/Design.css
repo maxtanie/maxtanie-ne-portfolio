@@ -14,6 +14,5 @@
   color: #fc3000;
   transition: 0.3s ease;
   font-weight: bold; }
-
-.link-read-more:hover {
-  color: #0f0072; }
+  .link-read-more:hover {
+    color: #0f0072; }

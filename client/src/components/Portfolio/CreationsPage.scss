@@ -1,24 +1,29 @@
 .creationsPage {
   margin-top: 23px;
   padding-bottom: 50px;
+
   .block-presentation-creations {
     padding: 20px;
     background: #1b1b1b;
     color: #fff;
     text-align: center;
+
     .id {
       font-size: 1.3em;
     }
+
     .title-creations {
       font-size: 3em;
       margin: 5px 0;
     }
+
     .creation-miniature {
       width: 130px;
       height: 130px;
       margin: auto;
       margin-top: 15px;
       margin-bottom: 15px;
+
       .img-miniature {
         width: 100%;
         height: 100%;
@@ -27,6 +32,7 @@
         border-radius: 50%;
       }
     }
+
     .item-creations {
       font-size: 1.2em;
       font-family: "source sans pro light";
@@ -43,7 +49,7 @@
     margin-bottom: 25px;
 
     .title-infos {
-      font-family: "great wishes";
+      font-family: 'Cookie', cursive !important;
       font-size: 1.8em;
       margin-bottom: 15px;
       color: #1b1b1b;
@@ -56,6 +62,7 @@
     }
   }
 }
+
 .gap-creations {
   grid-gap: 60px !important;
 }

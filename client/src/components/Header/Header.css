@@ -11,50 +11,42 @@
   background: #ffea02 url("../../images/header/bg-header.png") no-repeat;
   background-size: cover;
   background-position: center; }
-
-@media screen and (max-width: 768px) {
-  #bg-header {
-    background: #ffea02;
-    height: 100vh; } }
-
-#bg-header .txt-header {
-  font-size: 1.6em;
-  color: #0f0072;
-  line-height: 1.6;
-  margin-top: 20px; }
-
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
+    #bg-header {
+      background: #ffea02;
+      height: 100vh; } }
   #bg-header .txt-header {
-    font-size: 1.2em; } }
-
-#bg-header .orange-triangle {
-  position: relative; }
-
-#bg-header .orange-triangle:after {
-  position: absolute;
-  content: "";
-  border: 15px solid transparent;
-  border-bottom: 25px solid #fc3000;
-  margin-top: -20px;
-  margin-left: -63px; }
-
-@media screen and (max-width: 768px) {
-  #bg-header .orange-triangle:after {
-    margin-left: -41px;
-    border: none; } }
-
-#bg-header .orange-triangle:before {
-  position: absolute;
-  content: "";
-  border: 11px solid transparent;
-  border-bottom: 20px solid #ffea02;
-  margin-top: -12.5px;
-  margin-left: 151.5px;
-  z-index: 999; }
-
-@media screen and (max-width: 768px) {
-  #bg-header .orange-triangle:before {
-    margin-left: 89px; } }
+    font-size: 1.6em;
+    color: #0f0072;
+    line-height: 1.6;
+    margin-top: 20px; }
+    @media screen and (max-width: 768px) {
+      #bg-header .txt-header {
+        font-size: 1.2em; } }
+  #bg-header .orange-triangle {
+    position: relative; }
+    #bg-header .orange-triangle:after {
+      position: absolute;
+      content: "";
+      border: 15px solid transparent;
+      border-bottom: 25px solid #fc3000;
+      margin-top: -20px;
+      margin-left: -63px; }
+      @media screen and (max-width: 768px) {
+        #bg-header .orange-triangle:after {
+          margin-left: -41px;
+          border: none; } }
+    #bg-header .orange-triangle:before {
+      position: absolute;
+      content: "";
+      border: 11px solid transparent;
+      border-bottom: 20px solid #ffea02;
+      margin-top: -12.5px;
+      margin-left: 151.5px;
+      z-index: 999; }
+      @media screen and (max-width: 768px) {
+        #bg-header .orange-triangle:before {
+          margin-left: 89px; } }
 
 .txt-width {
   width: 500px;
