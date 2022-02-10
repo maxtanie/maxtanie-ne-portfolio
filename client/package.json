@@ -22,7 +22,7 @@
     "isotope-layout": "^3.0.6",
     "jquery": "^3.4.1",
     "material-ui": "^0.20.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "npm-run-all": "^4.1.5",
     "react": "^16.9.0",
     "react-animate-on-scroll": "^2.1.5",
